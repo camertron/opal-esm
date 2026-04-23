@@ -6,6 +6,9 @@
   "module": "index.js",
   "repository": "camertron/opal-esm",
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
   "exports": {
     ".": "./index.js",
     "./*": "./src/*"
