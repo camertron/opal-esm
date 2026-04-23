@@ -1,0 +1,33 @@
+{
+  "name": "@camertron/opal-esm",
+  "version": "1.8.2",
+  "description": "The Opal runtime, packaged as a series of ESM modules.",
+  "main": "index.js",
+  "module": "index.js",
+  "repository": "camertron/opal-esm",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./*": "./src/*"
+  },
+  "keywords": [
+    "ruby",
+    "opal"
+  ],
+  "author": "Cameron Dutro",
+  "license": "MIT",
+  "homepage": "https://github.com/camertron/opal-esm#readme",
+  "bugs": {
+    "url": "https://github.com/camertron/opal-esm/issues"
+  },
+  "files": [
+    "index.js",
+    "./src"
+  ],
+  "scripts": {
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
