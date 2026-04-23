@@ -18,7 +18,7 @@ Opal.Kernel.$puts("Hello, world!");
 
 ## Running Tests
 
-`bundle exec rake` should do the trick.
+`npm test` should do the trick.
 
 ## License
 

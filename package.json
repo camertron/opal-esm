@@ -25,9 +25,10 @@
     "./src"
   ],
   "scripts": {
-  },
-  "dependencies": {
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "devDependencies": {
+    "vitest": "^4.1.5"
   }
 }
