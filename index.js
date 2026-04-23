@@ -1,2 +1,2 @@
-import Opal from "./src/opal"
+import Opal from "./src/opal.js"
 export { Opal }

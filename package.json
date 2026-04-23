@@ -1,6 +1,6 @@
 {
   "name": "@camertron/opal-esm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The Opal runtime, packaged as a series of ESM modules.",
   "main": "index.js",
   "module": "index.js",
