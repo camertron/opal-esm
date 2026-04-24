@@ -72,7 +72,7 @@ File.write(opal_js_path, opal_js)
 Dir.glob("src/*.js") do |src_path|
   contents = File.read(src_path)
   contents = <<~JAVASCRIPT
-    import Opal from "./opal"
+    import Opal from "./opal.js"
     #{contents}
   JAVASCRIPT
 

@@ -1,4 +1,4 @@
-import Opal from "./opal"
+import Opal from "./opal.js"
 const globalThis = {};
 
 function bootstrap() {
